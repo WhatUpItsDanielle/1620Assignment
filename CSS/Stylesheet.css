@@ -1,6 +1,39 @@
 /*Color references
-light beige = #f2e9de
+light beige = #fffaf3
+medium beige =  #f2e9de
 dark purple= #75279
-aqua = #56949f
+aqua = #286983
 redish = #b4637a
 */
+
+body{
+    color:#286983;
+    display: grid;
+    grid-template-columns:20% 80%;
+    grid-template-rows:max-content;
+    text-align: center;
+    
+}
+
+aside{
+    background-color: #fffaf3;
+    height:100vh;
+
+}
+
+#Notes{
+    text-align:left;
+    width: 95%;
+}
+
+section{
+    background-color:#f2e9de;
+    height:100vh;
+
+
+}
+
+p{
+    text-align:right;
+}
+
